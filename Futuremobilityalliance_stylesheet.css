@@ -98,3 +98,9 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+/* Scale EV image to 50% and keep it responsive */
+#ev-image img {
+  width: 50%;      /* half the container width */
+  height: auto;    /* maintain aspect ratio */
+  max-width: 100%; /* prevents overflow on small screens */
+}
