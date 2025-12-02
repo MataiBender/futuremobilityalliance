@@ -1,85 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hyperloop Projects| Future Mobility Alliance</title>
+    <title>Hyperloop Projects | Future Mobility Alliance</title>
     <meta name="description"
         content="Hyperloop routes, pods, and corridor planning insights with stock imagery to visualize concepts.">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <!-- External CSS -->
-    <link rel="stylesheet" href="Futuremobilityalliance_stylesheet.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-
 <body>
-    <header class="header">
-        <div class="container">
-            <a class="skip-link" href="#main">Skip to content</a>
-            <div class="brand">
-                <div class="brand__logo" aria-hidden="true"></div>
-                <div>Future Mobility Alliance</div>
-            </div>
-            <nav class="nav" aria-label="Primary">
-                <a href="index.html">Home</a>
-                <a href="hyperloop.html" aria-current="page">Hyperloop Projects</a>
-                <a href="ev-trends.html">EV Trends</a>
-                <a href="air-mobility.html">Air Mobility</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
+    <!-- Header -->
+    <header>
+        <h1>Future Mobility Alliance</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ev.html">EV Trends</a></li>
+                <li><a href="hyperloop.html" aria-current="page">Hyperloop Projects</a></li>
+                <li><a href="airmobility.html">Air Mobility</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main id="main">
-        <section class="hero container" aria-labelledby="hyperloop-title">
-            <div class="hero__copy">
-                <h1 id="hyperloop-title">Hyperloop corridors and pod design</h1>
-                <p>Hyperloop imagines high-speed pods moving through low-pressure tubes between cities. Design
-                    challenges include passenger safety, emergency egress, and energy optimization.</p>
-                <ol>
-                    <li>Route selection and right-of-way</li>
-                    <li>Pod aerodynamics and comfort</li>
-                    <li>Station planning and throughput</li>
-                </ol>
-            </div>
-            <div class="hero__image">
-                <figure>
-                    <img src="images/hyperloop_tube.webp" alt="Hyperloop tube concept with elevated pylons">
-                    <figcaption>Elevated tube concept for intercity corridors.</figcaption>
-                </figure>
-            </div>
+    <!-- Main Content -->
+    <main>
+        <!-- Intro Section -->
+        <section id="hyperloop-intro">
+            <h2>Hyperloop Corridors and Pod Design 🚄</h2>
+            <p>
+                Hyperloop imagines high-speed pods moving through low-pressure tubes between cities.
+                Design challenges include passenger safety, emergency egress, and energy optimization.
+            </p>
+            <ol>
+                <li>Route selection and right-of-way</li>
+                <li>Pod aerodynamics and comfort</li>
+                <li>Station planning and throughput</li>
+            </ol>
         </section>
 
-        <section class="section container">
-            <div class="card">
-                <h2>Pod and station concepts</h2>
-                <figure>
-                    <img src="images/hyperloop_pod.webp" alt="Hyperloop passenger pod interior concept">
-                    <figcaption>Passenger seating configured for short, frequent trips.</figcaption>
-                </figure>
-                <p><strong>Goal:</strong> Reduce dwell times while maintaining safety, accessibility, and premium
-                    experience.</p>
-            </div>
+        <!-- Image Section -->
+        <section id="hyperloop-image">
+            <figure>
+                <img src="images/hyperloop_tube.webp" alt="Hyperloop tube concept with elevated pylons">
+                <figcaption>Elevated tube concept for intercity corridors.</figcaption>
+            </figure>
+        </section>
 
-            
+        <!-- Pod and Station Concepts -->
+        <section id="hyperloop-pod">
+            <h3>Pod and Station Concepts</h3>
+            <figure>
+                <img src="images/hyperloop_pod.webp" alt="Hyperloop passenger pod interior concept">
+                <figcaption>Passenger seating configured for short, frequent trips.</figcaption>
+            </figure>
+            <p><strong>Goal:</strong> Reduce dwell times while maintaining safety, accessibility, and premium
+                experience.</p>
+        </section>
+    </main>
 
-    <footer class="footer">
-        <div class="container">
-            <nav class="footer__nav" aria-label="Footer">
-                <a href="index.html">Home</a>
-                <a href="hyperloop.html">Hyperloop</a>
-                <a href="ev-trends.html">EV</a>
-                <a href="air-mobility.html">Air</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-            <div class="footer__meta">
-                © 2025 • Future Mobility Alliance • Designed by Matai • All rights reserved &mdash; Powered by HTML
-                &amp; CSS
-            </div>
-        </div>
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+        <p>&copy; 2025 Future Mobility Alliance | Designed by Matai</p>
+        <p><a href="mailto:info@futuremobility.org">Email Us</a></p>
     </footer>
 </body>
 
