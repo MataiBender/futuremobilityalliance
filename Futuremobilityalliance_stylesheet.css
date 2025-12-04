@@ -164,4 +164,11 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+#hyperloop-pod img {
+  width: 50%;
+  height: auto;   /* keeps aspect ratio */
+  display: block; /* ensures margin auto works */
+  margin-left: auto;
+  margin-right: auto;
+}
 
