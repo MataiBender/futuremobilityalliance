@@ -153,3 +153,6 @@ img:hover {
   color: #00ff99;
   text-align: center;       /* centers caption text */
 }
+.text-center {
+  text-align: center;
+}
