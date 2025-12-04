@@ -153,6 +153,15 @@ img:hover {
   color: #00ff99;
   text-align: center;       /* centers caption text */
 }
-.text-center {
-  text-align: center;
+/* Apply to the whole site */
+body {
+  text-align: center;   /* centers all inline content like text, inline-blocks, images */
 }
+
+/* Ensure images are centered as block elements */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
